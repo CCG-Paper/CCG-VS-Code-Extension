@@ -1,0 +1,62 @@
+.ccg-node {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+    background: white;
+    color: #777;
+    cursor: pointer;
+  }
+
+  .ccg-node[data-selection='conditional'] {
+    color: white;
+    background-color: rgb(220, 230, 82);
+  }
+
+  .ccg-node[data-selection='deletion'] {
+    color: white;
+    background-color: rgb(236, 79, 110);
+  }
+
+  .ccg-node[data-selection='repetition'] {
+    color: white;
+    background-color: rgb(79, 134, 236);
+  }
+
+  .ccg-node[data-selection='substitution'] {
+    color: white;
+    background-color: rgb(142, 236, 79);
+  }
+
+  .ccg-node.is-leaf {
+    background-image: linear-gradient(45deg, #ddd 15%, #ffffff 15%, #ffffff 30%, #ddd 30%, #ddd 45%, #ffffff 45%, #ffffff 60%, #ddd 60%, #ddd 75%, #ffffff 75%, #ffffff 90%, #ddd 90%);
+  }
+
+  .ccg-node.is-leaf[data-selection='conditional'] {
+    color: white;
+    background-image: linear-gradient(45deg, rgb(193, 204, 30) 15%, rgb(220, 230, 82) 15%, rgb(220, 230, 82) 30%, rgb(193, 204, 30) 30%, rgb(193, 204, 30) 45%, rgb(220, 230, 82) 45%, rgb(220, 230, 82) 60%, rgb(193, 204, 30) 60%, rgb(193, 204, 30) 75%, rgb(220, 230, 82) 75%, rgb(220, 230, 82) 90%, rgb(193, 204, 30) 90%);
+  }
+
+  .ccg-node.is-leaf[data-selection='deletion'] {
+    color: white;
+    background-image: linear-gradient(45deg, rgb(213, 23, 61) 15%, rgb(236, 79, 110) 15%, rgb(236, 79, 110) 30%, rgb(213, 23, 61) 30%, rgb(213, 23, 61) 45%, rgb(236, 79, 110) 45%, rgb(236, 79, 110) 60%, rgb(213, 23, 61) 60%, rgb(213, 23, 61) 75%, rgb(236, 79, 110) 75%, rgb(236, 79, 110) 90%, rgb(213, 23, 61) 90%);
+  }
+
+  .ccg-node.is-leaf[data-selection='repetition'] {
+    color: white;
+    background-image: linear-gradient(45deg, rgb(23, 90, 213) 15%, rgb(79, 134, 236) 15%, rgb(79, 134, 236) 30%, rgb(23, 90, 213) 30%, rgb(23, 90, 213) 45%, rgb(79, 134, 236) 45%, rgb(79, 134, 236) 60%, rgb(23, 90, 213) 60%, rgb(23, 90, 213) 75%, rgb(79, 134, 236) 75%, rgb(79, 134, 236) 90%, rgb(23, 90, 213) 90%);
+  }
+
+  .ccg-node.is-leaf[data-selection='substitution'] {
+    color: white;
+    background-color: rgb(142, 236, 79);
+    background-image: linear-gradient(45deg, rgb(99, 213, 23) 15%, rgb(142, 236, 79) 15%, rgb(142, 236, 79) 30%, rgb(99, 213, 23) 30%, rgb(99, 213, 23) 45%, rgb(142, 236, 79) 45%, rgb(142, 236, 79) 60%, rgb(99, 213, 23) 60%, rgb(99, 213, 23) 75%, rgb(142, 236, 79) 75%, rgb(142, 236, 79) 90%, rgb(99, 213, 23) 90%);
+  }
+  
+.ccg-node span {
+  display: block;
+  font-size: 12px;
+}
+
+.ccg-node .rule-name, .ccg-node .id-name {
+  font-weight: bold;
+}

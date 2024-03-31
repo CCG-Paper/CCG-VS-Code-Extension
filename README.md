@@ -1,14 +1,10 @@
-# REVIEWERS, PLEASE NOTE
+# Reviewers, Please Note
 
-Due to the additional work required to anonymize this repository, the contents of this repository are *not* the final contents intended for review.
-We will update the repository no later than March 31, 2024. This is within the time frame for updating paper submissions.
-We apologize for the inconvenience.
+*This is an anonymized version for review.
+The history of this project has been rewritten, and changes to the repository are only pushed occasionally.
+The full repository will be opened after the review period.*
 
 # CCG VS Code Extension
-
-*Please note that this is an anonymized version for reviewers.
-The history of this project has been rewritten, and changes to the repository are only occasionally pushed.
-The full repository will be opened after the review period.*
 
 This is a VS Code Extension for __Code-centric Code Generation (CCG)__.
 
